@@ -1,7 +1,7 @@
 //Bai 38.   Tương tự bài 37 nhưng a[i] là chữ số thập lục phân thứ i của p. 
 // Ví dụ p = 0X2CE thì mảng a có a[0] = 14, a[1] = 12, a[2] = 2 và n = 3
 
-//Cách làm giống hệt bài 37, khác là chỉ chia cho 16 thay vì 10 như bài 37 (vì p là hệ 16)
+//Cách làm giống hệt bài 37, khác là chỉ chia cho 16 thay vì 10 như bài 37 (vì p là hệ 16, các hệ cơ số khác cũng tương tự)
 #include <stdio.h>
 #include <math.h>
 
