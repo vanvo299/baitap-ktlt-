@@ -31,10 +31,6 @@ int main() {
     int n; // khởi tạo số cần kiểm tra
     printf("Nhap so can kiem tra: ");
     scanf("%d", &n);
-    if (n % 2 != 0) {
-        printf("Vui long nhap so chan\n");
-        return 1;
-    }
     if (KT_so_hanh_phuc(n)) {
         printf("%d la so hanh phuc\n", n);
     } else printf("%d khong la so hanh phuc\n", n);
